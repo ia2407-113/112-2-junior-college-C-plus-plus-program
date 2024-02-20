@@ -6,7 +6,7 @@
 
 拉專案下來
 ```
-git clone https://github.com/ia2407/112-1-junior-college-C-plus-plus-program.git 學號
+git clone https://https://github.com/ia2407-113/113-1-junior-college-C-plus-plus-program.git 學號
 ```
 <br>
 
@@ -31,7 +31,7 @@ git config --global user.email <mailaddress>
 
 設定遠端節點
 ```
-git remote add origin https://github.com/ia2407/112-1-junior-college-C-plus-plus-program.git
+git remote add origin https://https://github.com/ia2407-113/113-1-junior-college-C-plus-plus-program.git
 ```
 <br>
 
