@@ -1,0 +1,3 @@
+﻿  ConsoleApplication4.cpp
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4.cpp(8,19): warning C4101: 'BMI': 未參考的區域變數
+  ConsoleApplication4.vcxproj -> C:\Users\User\source\repos\ConsoleApplication4\Debug\ConsoleApplication4.exe
