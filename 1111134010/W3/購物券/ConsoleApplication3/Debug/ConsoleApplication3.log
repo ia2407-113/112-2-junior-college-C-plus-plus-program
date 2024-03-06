@@ -1,0 +1,3 @@
+﻿  ConsoleApplication3.cpp
+C:\Users\User\Desktop\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(13,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  ConsoleApplication3.vcxproj -> C:\Users\User\Desktop\ConsoleApplication3\Debug\ConsoleApplication3.exe
