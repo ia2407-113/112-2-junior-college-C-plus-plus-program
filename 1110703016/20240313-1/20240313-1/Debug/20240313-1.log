@@ -1,0 +1,8 @@
+﻿  20240313-1.cpp
+C:\Users\User\source\repos\20240313-1\20240313-1\20240313-1.cpp(16,17): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\20240313-1\20240313-1\20240313-1.cpp(21,17): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\20240313-1\20240313-1\20240313-1.cpp(26,16): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\20240313-1\20240313-1\20240313-1.cpp(31,16): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\20240313-1\20240313-1\20240313-1.cpp(36,16): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\20240313-1\20240313-1\20240313-1.cpp(12,10): warning C4101: 'c': 未參考的區域變數
+  20240313-1.vcxproj -> C:\Users\User\source\repos\20240313-1\Debug\20240313-1.exe
