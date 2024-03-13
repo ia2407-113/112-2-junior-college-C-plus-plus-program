@@ -1,0 +1,5 @@
+﻿  0313.cpp
+C:\Users\User\Desktop\0313\0313\0313.cpp(12,21): warning C4804: '<=': 作業中不安全的使用類型 'bool'
+C:\Users\User\Desktop\0313\0313\0313.cpp(14,22): warning C4804: '<=': 作業中不安全的使用類型 'bool'
+C:\Users\User\Desktop\0313\0313\0313.cpp(16,22): warning C4804: '<=': 作業中不安全的使用類型 'bool'
+  0313.vcxproj -> C:\Users\User\Desktop\0313\Debug\0313.exe
