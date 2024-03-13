@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    double a, b, c;
+    cout << "輸入三角形三邊長:";
+    cin >> a ;
+    cout << "輸入三角形三邊長:";
+    cin >> b;
+    cout << "輸入三角形三邊長:";
+    cin >> c;
+    if (a + b > c && a + c > b && b + c > a) {
+        cout << "可以構成三角形";
+    }
+    else if (a <= 0 || b <= 0 || c <= 0) {
+        cout << "不可以構成三角形";
+    }
+    else {
+        cout << "不可以構成三角形";
+    }
+    return 0;
+}
