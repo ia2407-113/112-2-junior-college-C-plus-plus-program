@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\User\Desktop\0313\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(8,15): warning C4101: 'b': 未參考的區域變數
+C:\Users\User\Desktop\0313\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(8,18): warning C4101: 'c': 未參考的區域變數
+  ConsoleApplication1.vcxproj -> C:\Users\User\Desktop\0313\ConsoleApplication1\Debug\ConsoleApplication1.exe
