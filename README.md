@@ -1,4 +1,4 @@
-# 113-1-junior-college-C-plus-plus-program
+# 112-2-junior-college-C-plus-plus-program
 ## 課程github說明
 每周上課教材會放到 weekx 目錄，請同學將作業上傳至自己的學號目錄中<br>
 
