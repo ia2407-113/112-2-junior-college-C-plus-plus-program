@@ -1,0 +1,9 @@
+﻿  ConsoleApplication4.cpp
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(26,21): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(27,21): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(28,20): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(29,20): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(30,20): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(45,50): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(51,51): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  ConsoleApplication4.vcxproj -> C:\Users\User\source\repos\ConsoleApplication4\Debug\ConsoleApplication4.exe
