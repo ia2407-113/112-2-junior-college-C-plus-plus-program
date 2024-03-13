@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\User\Desktop\w5-1111134047\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(14,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\w5-1111134047\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(20,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\w5-1111134047\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(26,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\w5-1111134047\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(29,22): warning C4804: '<': 作業中不安全的使用類型 'bool'
+C:\Users\User\Desktop\w5-1111134047\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(32,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\w5-1111134047\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(38,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  ConsoleApplication1.vcxproj -> C:\Users\User\Desktop\w5-1111134047\ConsoleApplication1\Debug\ConsoleApplication1.exe
