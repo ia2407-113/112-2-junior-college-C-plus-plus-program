@@ -1,0 +1,7 @@
+﻿  2024.3.13.cpp
+C:\Users\User\Desktop\2024.3.13\2024.3.13\2024.3.13.cpp(13,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\2024.3.13\2024.3.13\2024.3.13.cpp(19,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\2024.3.13\2024.3.13\2024.3.13.cpp(25,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\2024.3.13\2024.3.13\2024.3.13.cpp(31,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\2024.3.13\2024.3.13\2024.3.13.cpp(37,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  2024.3.13.vcxproj -> C:\Users\User\Desktop\2024.3.13\Debug\2024.3.13.exe
