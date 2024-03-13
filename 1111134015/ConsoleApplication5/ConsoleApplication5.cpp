@@ -5,11 +5,17 @@
 using namespace std;
 int main()
 {
-	int money;
-	cout << "輸入消費金額";
-	cin >> money;
-	cout << "禮卷金額=" << money / 10;
-	return 0;
+    int a, b, c;
+    cout << "請輸入三個邊長";
+    cin >> a >> b >> c;
+    if (a + b <= c)
+        cout << "無法構成";
+    else if (a + c <= b)
+        cout << "無法構成";
+    else if(b+c<= a)
+        cout << "無法構成";
+    else
+        cout << "可以構成";
 
 }
 
