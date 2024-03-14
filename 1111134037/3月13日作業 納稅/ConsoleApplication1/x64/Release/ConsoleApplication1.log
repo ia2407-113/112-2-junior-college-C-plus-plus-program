@@ -1,0 +1,14 @@
+﻿  ConsoleApplication1.cpp
+  lainsolu.cpp
+C:\Users\kelle\source\repos\ConsoleApplication1\ConsoleApplication1\lainsolu.cpp(15,17): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\kelle\source\repos\ConsoleApplication1\ConsoleApplication1\lainsolu.cpp(16,17): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\kelle\source\repos\ConsoleApplication1\ConsoleApplication1\lainsolu.cpp(17,17): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\kelle\source\repos\ConsoleApplication1\ConsoleApplication1\lainsolu.cpp(18,17): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\kelle\source\repos\ConsoleApplication1\ConsoleApplication1\lainsolu.cpp(19,17): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\kelle\source\repos\ConsoleApplication1\ConsoleApplication1\lainsolu.cpp(34,49): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\kelle\source\repos\ConsoleApplication1\ConsoleApplication1\lainsolu.cpp(40,53): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  正在產生程式碼
+  Previous IPDB not found, fall back to full compilation.
+  All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  ConsoleApplication1.vcxproj -> C:\Users\kelle\source\repos\ConsoleApplication1\x64\Release\ConsoleApplication1.exe
