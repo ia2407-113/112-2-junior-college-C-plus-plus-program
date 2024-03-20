@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main()
+{
+#include <iostream>
+    using namespace std;
+    int num;
+    int key = 123;
+    int count = 0;
+    do {
+        cout << "請輸入密碼：";
+        cin >> num;
+
+        if (num != key) {
+            cout << "密碼輸入錯誤\n";
+            count += 1;
+        }
+        else {
+            cout << "歡迎光臨本系統！\n";
+            break;
+        }
+    } while (count < 3);
+    cout << "暫停使用本系統\n";
+    return 0;
+}
