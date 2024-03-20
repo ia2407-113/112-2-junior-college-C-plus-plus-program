@@ -1,18 +1,35 @@
-﻿// 1111134033.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
+﻿// 1111134033密碼.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    int i,a ;
-    double sum = 0;
-    cout << "輸入小於50的正整數n:";
-    cin >> a;
-    for (i = 1; i <=a; i++)
-        sum+= 1.0 / i;
-        cout << "1 + 1 / 2 + 1 / 3 + … + 1 / n之和=" << sum ;
-        return 0;
+    int password;
+    int times = 0;
+    int max = 3;
+    int correctPassword = 123;
+
+    do {
+        cout << "請輸入密碼: ";
+        cin >> password;
+        times++;
+
+        if (password != correctPassword) {
+            cout << "密碼輸入錯誤。";
+        }
+        else {
+            cout << "歡迎光臨本系統!";
+            break;
+        }
+
+        if (times >= max) {
+            cout << "暫停使用本系統!";
+            break;
+        }
+    } while (true);
+
+    return 0;
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
