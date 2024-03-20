@@ -1,20 +1,33 @@
-﻿// ConsoleApplication1.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
+﻿// ConsoleApplication3.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    int i,a;
-    double sum=0;
-    cout << "請輸入小於50的整數";
-    cin >> a;
-    for (i = 1; i <= a; i++)
-        sum = sum + 1.0 / i;
-    cout << "合為:" << sum;
+    int num = 1, password, max = 3;
+    do
+    {
+        cout << "輸入密碼:";
+        cin >> password;
+        if (password == 123)
+        {
+            cout << "歡迎光臨本系統!";
+            break;
+        }
+        else if (num >= max)
+        {
+            cout << "暫停使用本系統!";
+            break;
+        }
+        else
+            cout << "密碼輸入錯誤\n";
+
+        num = num + 1;
+
+    } while (num <= 3);
 
 }
-
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
 

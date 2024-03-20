@@ -5,12 +5,16 @@
 using namespace std;
 int main()
 {
-    int money=0;
-    cout << "請輸入購物金額:";
-    cin >> money;
-    cout << "您可以拿到" << money /10<<"元的禮卷";
-    return 0;
+	int row, col; //列 , 行
+	for (row = 9; row >= 1; row = row - 2)// 外層迴圈，從9開始，每次減2
+	{
+		for (col = 1; col <= row; col++)// 內層迴圈，控制每行的數字
+			cout << col;
+		cout << "\n";
+	}
+	return 0;
 }
+
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
