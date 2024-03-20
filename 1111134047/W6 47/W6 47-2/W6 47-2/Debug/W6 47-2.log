@@ -1,0 +1,4 @@
+﻿  W6 47-2.cpp
+C:\Users\User\Desktop\W6 47\W6 47-2\W6 47-2\W6 47-2.cpp(8,9): warning C4101: 'a': 未參考的區域變數
+C:\Users\User\Desktop\W6 47\W6 47-2\W6 47-2\W6 47-2.cpp(8,12): warning C4101: 'b': 未參考的區域變數
+  W6 47-2.vcxproj -> C:\Users\User\Desktop\W6 47\W6 47-2\Debug\W6 47-2.exe

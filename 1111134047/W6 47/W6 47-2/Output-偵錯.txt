@@ -1,0 +1,14 @@
+﻿W6 47-2.exe' (Win32): 已載入 'C:\Users\User\Desktop\W6 47\W6 47-2\Debug\W6 47-2.exe'。已載入符號。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\ntdll.dll'。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\kernel32.dll'。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\KernelBase.dll'。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\apphelp.dll'。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\msvcp140d.dll'。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\vcruntime140d.dll'。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\ucrtbased.dll'。
+0x740 執行緒以返回碼 0 (0x0) 結束。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\kernel.appcore.dll'。
+W6 47-2.exe' (Win32): 已載入 'C:\Windows\SysWOW64\msvcrt.dll'。
+0x2b78 執行緒以返回碼 0 (0x0) 結束。
+0x2588 執行緒以返回碼 0 (0x0) 結束。
+'[15100] W6 47-2.exe' 程式以返回碼 0 (0x0) 結束。
