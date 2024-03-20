@@ -5,21 +5,31 @@
 using namespace std;
 int main()
 {
-	int a, b, c;
-	cout << "輸入邊長abc  ";
-	cin >> a >> b >> c;
-	if (a + b <= c)
-		cout << "這三邊長無法成為三角形";
+    int pa;
+    int times = 0;
+    int max = 3;
+    int correctPassword = 123;
 
-	else if (a + c <= b)
-		cout << "這三邊長無法成為三角形";
+    do {
+        cout << "請輸入密碼: ";
+        cin >> pa;
+        times++;
 
-	else if (b + c <= a)
-		cout << "這三邊長無法成為三角形";
+        if (pa != correctPassword) {
+            cout << "密碼輸入錯誤。";
+        }
+        else {
+            cout << "歡迎光臨本系統!";
+            break;
+        }
 
-	else
-		cout << "可成一組三角形";
-	return 0;
+        if (times >= max) {
+            cout << "暫停使用本系統!";
+            break;
+        }
+    } while (true);
+
+    return 0;
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
