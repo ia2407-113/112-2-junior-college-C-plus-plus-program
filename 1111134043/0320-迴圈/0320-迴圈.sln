@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0320-迴圈", "0320-迴圈\0320-迴圈.vcxproj", "{E067E773-8139-473C-8852-7C147775F59F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E067E773-8139-473C-8852-7C147775F59F}.Debug|x64.ActiveCfg = Debug|x64
+		{E067E773-8139-473C-8852-7C147775F59F}.Debug|x64.Build.0 = Debug|x64
+		{E067E773-8139-473C-8852-7C147775F59F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E067E773-8139-473C-8852-7C147775F59F}.Debug|x86.Build.0 = Debug|Win32
+		{E067E773-8139-473C-8852-7C147775F59F}.Release|x64.ActiveCfg = Release|x64
+		{E067E773-8139-473C-8852-7C147775F59F}.Release|x64.Build.0 = Release|x64
+		{E067E773-8139-473C-8852-7C147775F59F}.Release|x86.ActiveCfg = Release|Win32
+		{E067E773-8139-473C-8852-7C147775F59F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D8399CC-5B75-4D5A-9609-2F49D2DBC77E}
+	EndGlobalSection
+EndGlobal
