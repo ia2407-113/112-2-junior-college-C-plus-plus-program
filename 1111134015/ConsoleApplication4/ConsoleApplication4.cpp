@@ -3,16 +3,25 @@
 
 #include <iostream>
 using namespace std;
-int main()
-{
-    float kg, m , BMI;
-    cout << ("請輸入體重和身高:");
-    cin >> kg >> m;
-    cout << "BMI值:" << kg / (m * m);
-    
+int main() {
+    int n;
+    double sum = 0.0;
 
+    cout << "請輸入小於50的正整數: ";
+    cin >> n;
 
-  
+    if (n <= 0 || n >= 50) {
+        cout << "請輸入小於50的正整數" << endl;
+        return 1;
+    }
+
+    for (int i = 1; i <= n; ++i) {
+        sum += 1.0 / i;
+    }
+
+    cout << "1 + 1/2 + 1/3 + ... + 1/" << n << " 的和為: " << sum << endl;
+
+    return 0;
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表

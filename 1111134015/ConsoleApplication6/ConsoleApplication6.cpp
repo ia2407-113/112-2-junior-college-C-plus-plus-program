@@ -1,17 +1,31 @@
-﻿// ConsoleApplication5.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
+﻿// ConsoleApplication6.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
 
 #include <iostream>
 using namespace std;
 int main() {
-    int rows = 5; // 控制行數
+    int password;
+    int attempts = 0; 
 
-    for (int i = 1; i <= rows; ++i) {
-        for (int j = 1; j <= (2 * rows - 2 * i + 1); ++j) {
-            cout << j;
+    do {
+        cout << "請輸入密碼: ";
+        cin >> password;
+
+        if (password != 123) {
+            cout << "密碼輸入錯誤" << endl;
+            attempts++;
+
+            if (attempts == 3) {
+                cout << "暫停使用本系統!" << endl;
+                return 0; 
+            }
         }
-        cout << endl;
-    }
+        else {
+            cout << "歡迎光臨本系統!" << endl;
+            break; 
+        }
+
+    } while (true);
 
     return 0;
 }
