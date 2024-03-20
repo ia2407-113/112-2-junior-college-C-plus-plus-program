@@ -5,34 +5,16 @@
 using namespace std;
 int main()
 {
-    float money;
-    cout << "綜合所得淨額=";
-    cin >> money;
-    if (money <= 560000)
-        cout << "5%級距,應納稅額=" << money * 0.05;
-    else if (money >= 560001 && money <= 1260000)
-        cout << "12%級距,應納稅額=" << money * 0.12 - 39200;
-    else if (money >= 1260001 && money <= 2520000)
-        cout << "20%級距,應納稅額=" << money * 0.2 - 140000;
-    else if (money >= 2520001 && money <= 4720000)
-        cout << "30%級距,應納稅額=" << money * 0.3 - 392000;
-    else if (money >= 4720001)
-        cout << "40%級距,應納稅額=" << money * 0.4 - 864000;
- 
+    int n, i;
+    double sum = 0;
+    cout << "輸入小於50的正整數";
+    cin >> n;
 
-    int a, b, c;
-    cout << "\n輸入三角形的三個邊長(以空白隔開)";
-    cin >> a >> b >> c;
-    if ((a + b) <= c)
-        cout << "無法構成三角形";
-    else if ((a + c) <= b || (b + c)<= a)
-        cout << "無法構成三角形";
-    else
-        cout << "可構成三角形";
+    for (i = 1; i <= n; i++)
+        sum = sum + 1.0 / i; //確保他是浮點數除法
+    cout << "1 + 1/2 + 1/3 +...+ 1/n=之和" << sum;
 
     return 0;
-
-
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
