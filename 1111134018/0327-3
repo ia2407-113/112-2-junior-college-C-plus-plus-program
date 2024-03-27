@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+
+std::string capitalizeFirstLetters(const std::string& sentence) {
+    std::stringstream ss(sentence);
+    std::string word;
+    std::string result;
+
+    while (ss >> word) {
+        if (!result.empty()) {
+            result += " ";
+        }
+        // 將單字的第一個字母改為小寫
+        word[0] = std::tolower(word[0]);
+        // 將單字的其餘字母改為大寫
+        for (size_t i = 1; i < word.length(); i++) {
+            word[i] = std::toupper(word[i]);
+        }
+        result += word;
+    }
+
+    return result;
+}
+
+int main() {
+    std::string inputSentence;
+    std::cout << "請輸入一句英文：";
+    std::getline(std::cin, inputSentence);
+
+    std::string capitalizedSentence = capitalizeFirstLetters(inputSentence);
+    std::cout << "首字小寫的句子為：" << capitalizedSentence << std::endl;
+
+    return 0;
+}
