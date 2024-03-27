@@ -1,21 +1,23 @@
 ﻿// ConsoleApplication1.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
-//
-
 #include <iostream>
 #include <string>
+#include <map>
 
 using namespace std;
 
 int main() {
     string str;
-    cout << "輸入一句英文:";
+    cout << "輸入一列文字（不含中文字或不顯示的字元) :";
     getline(cin, str);
-    for (int i = 0; i < str.length(); i++) { // 將每個單詞的首字母大寫
-        if (i == 0 || str[i - 1] == ' ') { // 檢查是否為第一個字符或空格後的字符
-            str[i] = toupper(str[i]);  // 將字母轉換為大寫
+    map<char, int> count;
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i] >= 32 && str[i] <= 127) {
+            count[str[i]]++;
         }
     }
-    cout << str; 
+    for (map<char, int>::iterator it = count.begin(); it != count.end(); it++) {
+        cout << it->first << " " << it->second << endl;
+    }
     return 0;
 }
 
