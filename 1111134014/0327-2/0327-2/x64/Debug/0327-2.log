@@ -1,0 +1,4 @@
+﻿  0327-2.cpp
+C:\Users\Luna\Desktop\0327-2\0327-2\0327-2.cpp(19,22): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\Luna\Desktop\0327-2\0327-2\0327-2.cpp(20,22): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  0327-2.vcxproj -> C:\Users\Luna\Desktop\0327-2\x64\Debug\0327-2.exe
