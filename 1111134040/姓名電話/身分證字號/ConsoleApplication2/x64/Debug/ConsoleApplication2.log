@@ -1,0 +1,8 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\88692\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(19,25): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\88692\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(20,26): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\88692\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(37,23): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\88692\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(38,28): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\88692\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(64,22): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\88692\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(76,23): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  ConsoleApplication2.vcxproj -> C:\Users\88692\source\repos\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe
