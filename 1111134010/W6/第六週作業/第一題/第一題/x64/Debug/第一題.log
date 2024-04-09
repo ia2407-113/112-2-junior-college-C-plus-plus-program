@@ -1,0 +1,3 @@
+﻿  第一題.cpp
+C:\Users\sinyu\OneDrive\桌面\第六週作業\第六週作業\第一題\第一題.cpp(10,20): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  第一題.vcxproj -> C:\Users\sinyu\OneDrive\桌面\第六週作業\第六週作業\第一題\x64\Debug\第一題.exe
