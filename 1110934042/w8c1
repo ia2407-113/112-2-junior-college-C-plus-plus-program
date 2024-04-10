@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+void num(int &a, int &b, int &c, int &d, int &e) {
+	if (a > b) 
+		swap(a, b);
+	if (a > c)
+		swap(a, c);
+	if (a > d)
+		swap(a, d);
+	if (a > e)
+		swap(a, e);
+	if (b > c)
+		swap(b, c);
+	if (b > d)
+		swap(b, d);
+	if (b > e)
+		swap(b, e);
+	if (c > d)
+		swap(c, d);
+	if (c > e)
+		swap(c, e);
+	if (d > e)
+		swap(d, e);
+}
+
+int main()
+{
+	int n1, n2, n3, n4, n5;
+	cout << "enter:" << endl;
+	cin >> n1 >> n2 >> n3 >> n4 >> n5;
+	num(n1, n2, n3, n4, n5);
+	cout << n1 << " " << n2 << " " << n3 << " " << n4 << " " << n5;
+	return 0;
+}
