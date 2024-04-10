@@ -1,0 +1,5 @@
+﻿  第二題.cpp
+C:\Users\User\Desktop\第七週作業\第二題\第二題\第二題.cpp(41,12): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\第七週作業\第二題\第二題\第二題.cpp(53,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\第七週作業\第二題\第二題\第二題.cpp(59,25): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  第二題.vcxproj -> C:\Users\User\Desktop\第七週作業\第二題\Debug\第二題.exe
