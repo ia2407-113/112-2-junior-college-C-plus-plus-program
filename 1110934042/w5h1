@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string str;
+    getline(cin, str);
+    int a;
+    a = str.length();
+    for (size_t i = 1; i < a; i++)
+    {
+        str[i] = toupper(str[i]);
+    }
+    for (size_t i = 0; i < a; i++)
+    {
+        if (str[i] == ' ')
+            str[i + 1] = tolower(str[i + 1]);
+    }
+    cout << str;
+}
