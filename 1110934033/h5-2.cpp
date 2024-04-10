@@ -25,9 +25,9 @@ int main() {
     string num1 = id1.substr(7, 9);
     string num2 = id2.substr(7, 9);
 
-    if (num1 < num2) {
+    if (num1 > num2) {
         cout << "第一位的年齡較大" << endl;
-    } else if (num1 > num2) {
+    } else if (num1 < num2) {
         cout << "第二位的年齡較大" << endl;
     } else {
         cout << "兩位年齡一樣大" << endl;
