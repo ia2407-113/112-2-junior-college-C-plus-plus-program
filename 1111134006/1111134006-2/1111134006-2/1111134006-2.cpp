@@ -2,16 +2,31 @@
 //
 
 #include <iostream>
+#include <string>
+#include <cctype>
+
 using namespace std;
-int main()
-{
-    int row, col;
-    for (row = 9; row >= 1; row = row - 2)
+
+int main() {
+
+    string str1, str2;
+    cout << "輸入一串英文:";
+    getline(cin, str1);
+
+    for (int i = 0; i < str1.length(); i++)
     {
-        for (col = 1; col <= row; col++)
-            cout << col;
-            cout << "\n";
+        if (i == 0 || str2[i - 1] == ' ')
+        {
+            str2 += tolower(str1[i]);
+        }
+        else
+        {
+            str2 += toupper(str1[i]);
+        }
     }
+
+    cout << str2;
+
     return 0;
 }
 
