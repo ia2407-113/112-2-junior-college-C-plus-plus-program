@@ -2,26 +2,26 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
-int main() {
-    int n;
-    double sum = 0.0;
 
-    cout << "請輸入小於50的正整數: ";
-    cin >> n;
-
-    if (n <= 0 || n >= 50) {
-        cout << "請輸入小於50的正整數" << endl;
-        return 1;
+int main()
+{
+    string str1;
+    getline(cin, str1);//輸入一句話英文
+    int a;
+    a = str1.length();//不太確定 課7-39
+    for (int i = 0; i < a; i++)
+    {
+        str1[i] = toupper(str1[i]);//All小寫改大寫
     }
-
-    for (int i = 1; i <= n; ++i) {
-        sum += 1.0 / i;
+    str1[0] = tolower(str1[0]);
+    for (int i = 0; i < a; i++)
+    {
+        if (str1[i] == ' ') //找空白
+            str1[i + 1] = tolower(str1[i + 1]);//字首大寫改小寫
     }
-
-    cout << "1 + 1/2 + 1/3 + ... + 1/" << n << " 的和為: " << sum << endl;
-
-    return 0;
+    cout << str1;
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表

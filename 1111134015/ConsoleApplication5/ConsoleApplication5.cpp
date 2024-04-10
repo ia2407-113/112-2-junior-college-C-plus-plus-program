@@ -1,18 +1,30 @@
 ﻿// ConsoleApplication5.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
-
 #include <iostream>
+#include <string>
 using namespace std;
-int main() {
-    int rows = 5; // 控制行數
 
-    for (int i = 1; i <= rows; ++i) {
-        for (int j = 1; j <= (2 * rows - 2 * i + 1); ++j) {
-            cout << j;
-        }
-        cout << endl;
+int main()
+{
+    string name[5];//可以放5個人的名字
+    string phone[5];//可以放5個人的電話
+    string searname;//要尋找的人
+    for (int i = 0; i < 5; i++) {
+        cout << "請輸入同學" << i + 1 << "的姓名:";
+        getline(cin, name[i]);                   //輸入
+        cout << "請輸入同學" << i + 1 << "的電話:";
+        getline(cin, phone[i]);                  //輸入
     }
-
+    cout << "請輸入名字";
+    getline(cin, searname);
+    for (int i = 0; i < 5; i++) {
+        if (searname == name[i])
+        {
+            cout << searname << "的電話是:" << phone[i];
+            return 0;
+        }
+    }
+    cout << "查無此人";
     return 0;
 }
 
