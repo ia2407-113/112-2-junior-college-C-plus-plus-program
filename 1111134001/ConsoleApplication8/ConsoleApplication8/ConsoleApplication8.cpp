@@ -1,29 +1,33 @@
 ﻿#include <iostream>
-#include <string>
-#include <unordered_map>
+#include <algorithm>
 
-void countCharacterOccurrences(const std::string& text) {
-    std::unordered_map<char, int> charCount;
+using namespace std;
 
-    // Count occurrences of each character
-    for (char c : text) {
-        if (c >= 32 && c <= 127) {  // 檢查字元是否為可列印ASCII
-            charCount[c]++;
-        }
-    }
-
-    // 輸出字元出現次數
-    for (const auto& pair : charCount) {
-        std::cout << "字元 '" << pair.first << "' 出現 " << pair.second << " 次。" << std::endl;
-    }
+// 自訂函式，將整數陣列排序
+void sort_increasing_order(int* numbers, int size) {
+    sort(numbers, numbers + size);
 }
 
 int main() {
-    std::string inputText;
-    std::cout << "請輸入一行文字（僅限ASCII字符）：";
-    std::getline(std::cin, inputText);
+    const int size = 5;
+    int numbers[size];
 
-    countCharacterOccurrences(inputText);
+    // 輸入5個整數
+    cout << "請輸入5個整數：" << endl;
+    for (int i = 0; i < size; ++i) {
+        cout << "整數 " << i + 1 << ": ";
+        cin >> numbers[i];
+    }
+
+    // 呼叫自訂函式以將整數從小到大排序
+    sort_increasing_order(numbers, size);
+
+    // 輸出排序後的整數
+    cout << "整數從小到大排序後為：";
+    for (int i = 0; i < size; ++i) {
+        cout << " " << numbers[i];
+    }
+    cout << endl;
 
     return 0;
 }
