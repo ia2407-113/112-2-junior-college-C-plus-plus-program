@@ -5,16 +5,44 @@
 using namespace std;
 int main()
 {
-	int row, col; //列 , 行
-	for (row = 9; row >= 1; row = row - 2)// 外層迴圈，從9開始，每次減2
-	{
-		for (col = 1; col <= row; col++)// 內層迴圈，控制每行的數字
-			cout << col;
-		cout << "\n";
-	}
-	return 0;
-}
 
+    string id1, id2;
+    cout << "請輸入第一位的身分證:";
+    cin >> id1;
+    cout << "請輸入第二位的身分證:";
+    cin >> id2;
+
+    for (int i = 2; i <= 8; ++i)// 迴圈比較兩位身分證字號的第 2 到第 8 碼
+    {
+        if (id1[i] < id2[i])
+        {
+            if (id1[1] == '1')// 判斷第一位身分證字號的性別
+            {
+                cout << "第一位的男性年齡較大";
+            }
+            else
+            {
+                cout << "第一位的女性年齡較大";
+            }
+            break;
+        }
+        else if (id1[i] > id2[i]) // 如果第一位的第 i 碼大於第二位的第 i 碼
+        {
+            if (id2[1] == '1')
+            {
+                cout << "第二位的男性年齡較大";
+            }
+            else
+            {
+                cout << "第二位的女性年齡較大";
+            }
+            break;
+        }
+
+    }
+
+    return 0;
+}
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表

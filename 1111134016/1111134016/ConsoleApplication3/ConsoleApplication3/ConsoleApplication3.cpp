@@ -5,28 +5,26 @@
 using namespace std;
 int main()
 {
-    int num = 1, password, max = 3;
-    do
+    string name[5], phone[5], search;// 宣告兩個字串陣列
+    for (int i = 0; i < 5; i++)
     {
-        cout << "輸入密碼:";
-        cin >> password;
-        if (password == 123)
+        cout << "請輸入第" << i + 1 << "位朋友的姓名:";
+        cin >> name[i];
+        cout << "請輸入第" << i + 1 << "位朋友的電話:";
+        cin >> phone[i];
+    }
+    cout << "請輸入要查詢的朋友之姓名:";
+    cin >> search;
+    for (int j = 0; j < 5; j++)
+    {
+        if (search == name[j])
         {
-            cout << "歡迎光臨本系統!";
-            break;
+            cout << "他的電話是:" << phone[j];
+            return 0;
         }
-        else if (num >= max)
-        {
-            cout << "暫停使用本系統!";
-            break;
-        }
-        else
-            cout << "密碼輸入錯誤\n";
-
-        num = num + 1;
-
-    } while (num <= 3);
-
+    }
+    cout << "查無資料";
+    return 0;
 }
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表

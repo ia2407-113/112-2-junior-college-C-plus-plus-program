@@ -1,20 +1,33 @@
 ﻿// ConsoleApplication1.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
-
 #include <iostream>
+#include <string>
+#include <cctype>
+
 using namespace std;
-int main()
-{
-    int i,a;
-    double sum=0;
-    cout << "請輸入小於50的整數";
-    cin >> a;
-    for (i = 1; i <= a; i++)
-        sum = sum + 1.0 / i;
-    cout << "合為:" << sum;
 
+int main() {
+
+    string str1, str2;// 宣告兩個字串變數 str1 儲存使用者的輸入 str2 儲存修改後的字串
+    cout << "輸入一串英文:";
+    getline(cin, str1);
+
+    for (int i = 0; i < str1.length(); i++)// 迴圈處理 str1 中的每個字元
+    {
+        if (i == 0 || str1[i - 1] == ' ')// 檢查是否是第一個字元或空格後的字元
+        {
+            str2 += tolower(str1[i]);//轉小寫
+        }
+        else
+        {
+            str2 += toupper(str1[i]);//轉大寫
+        }
+    }
+
+    cout << str2;
+
+    return 0;
 }
-
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
 
