@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+
+void volume(int side, double &ans) {
+    ans = side*side*side;
+}
+
+void volume(double r, double& ans) {
+    ans = (4.0/3.0)*3.14*r*r*r;
+}
+
+void volume(double r, double h,double& ans) {
+    ans = 3.14 * r * r * h;
+}
+
+void volume(double l, double w, double h, double& ans) {
+    ans = l*w*h;
+}
+
+
+int main()
+{
+    int side;
+    double ans,r,h,l,w;
+
+    cout << "立方體邊長:";
+    cin >> side;
+    volume(side, ans);
+    cout << "立方體體積:" << ans << endl;
+
+    cout << "球體半徑:";
+    cin >> r;
+    volume(r, ans);
+    cout << "球體體積:" << ans << endl;
+
+    cout << "圓柱體半徑:";
+    cin >> r;
+    cout << "圓柱體高:";
+    cin >> h;
+    volume(r, h, ans);
+    cout << "圓柱體體積:" << ans << endl;
+
+    cout << "長方體長:";
+    cin >> l;
+    cout << "長方體寬:";
+    cin >> w;
+    cout << "長方體高:";
+    cin >> h;
+    volume(l, w, h, ans);
+    cout << "長方體體積:" << ans << endl;
+
+    return 0;
+}
