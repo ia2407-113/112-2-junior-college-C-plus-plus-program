@@ -1,34 +1,30 @@
 ﻿// ConsoleApplication1.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
 #include <iostream>
-#include <string>
-#include <cctype>
-
 using namespace std;
-
-int main() {
-
-    string str1, str2;
-    cout << "輸入一串英文:";
-    getline(cin, str1);
-
-    for (int i = 0; i < str1.length(); i++)
+int main()
+{
+    string name[5], phone[5], search;
+    for (int i = 0; i < 5; i++)
     {
-        if (i == 0 || str1[i - 1] == ' ') // 如果是第一個字元或前一個字元是空格
+        cout << "請輸入第" << i + 1 << "位朋友的姓名:";
+        cin >> name[i];
+        cout << "請輸入第" << i + 1 << "位朋友的電話:";
+        cin >> phone[i];
+    }
+    cout << "請輸入要查詢的朋友之姓名:";
+    cin >> search;
+    for (int i = 0; i < 5; i++)
+    {
+        if (search == name[i])
         {
-            str2 += tolower(str1[i]); //小寫
-        }
-        else
-        {
-            str2 += toupper(str1[i]); //大寫
+            cout << "他的電話是:" << phone[i];
+            return 0;
         }
     }
-
-    cout << str2;
-
+    cout << "查無資料";
     return 0;
 }
-
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
 

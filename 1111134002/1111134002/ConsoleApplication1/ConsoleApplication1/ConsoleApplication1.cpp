@@ -1,26 +1,64 @@
 ﻿// ConsoleApplication1.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
+//
 #include <iostream>
-#include <string>
-#include <map>
-
 using namespace std;
+int main()
+{
+   
+    string id1, id2;
+    cout << "請輸入第一位的身分證:";
+    cin >> id1;
+    cout << "請輸入第二位的身分證:";
+    cin >> id2;
+   
+ if (id1[1] == '1') // 判斷第一位的身分證性別
+     {
+         cout << id1<<"是男性";
+     }
+else
+     {
+         cout << id1<<"是女性";
+     }
+ if (id2[1] == '1') // 判斷第二位的身分證性別
+     {
+         cout << id2<<"是男性";
+     }
+else
+     {
+         cout << id2<<"是女性";
+     }
 
-int main() {
-    string str;
-    cout << "輸入一列文字（不含中文字或不顯示的字元) :";
-    getline(cin, str);
-    map<char, int> count;
-    for (int i = 0; i < str.length(); i++) {
-        if (str[i] >= 32 && str[i] <= 127) {
-            count[str[i]]++;
+    for (int i = 2; i <= 8; ++i) // 逐位比較兩位身分證的出生日期
+    {
+        if (id1[i] < id2[i]) // 如果第一位的出生日期小於第二位
+            {
+            if (id1[1] == '1') // 如果第一位是男性
+            {
+                cout << "第一位的男性年齡較大";
+            }
+            else
+            {
+                cout << "第一位的女性年齡較大";
+            }
+            break;
         }
+        else if (id1[i] > id2[i]) // 如果第一位的出生日期大於第二位
+            {
+            if (id2[1] == '1')  // 如果第二位是男性
+            {
+                cout << "第二位的男性年齡較大";
+            }
+            else
+            {
+                cout << "第二位的女性年齡較大";
+            }
+            break;
+        }
+        
     }
-    for (map<char, int>::iterator it = count.begin(); it != count.end(); it++) {
-        cout << it->first << " " << it->second << endl;
-    }
+    
     return 0;
 }
-
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
 
