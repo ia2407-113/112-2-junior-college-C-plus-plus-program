@@ -1,0 +1,3 @@
+﻿  20240410-2.cpp
+C:\Users\User\source\repos\20240410-2\20240410-2\20240410-2.cpp(6,22): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  20240410-2.vcxproj -> C:\Users\User\source\repos\20240410-2\Debug\20240410-2.exe
