@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	string name[5], phone[5], find;
+	for (size_t i = 0; i <= 4; i++)
+	{
+		cout << "輸入第" << i + 1 << "位的名字";
+		getline(cin, name[i]);
+		cout << "輸入第" << i + 1 << "位的電話";
+		getline(cin, phone[i]);
+	}
+	cout << "輸入要查詢朋友的名字";
+	getline(cin, find);
+	for (size_t i = 0; i <= 4; i++)
+	{
+		if (name[i] == find)
+		{
+			cout << find << "的電話是" << phone[i];
+			return 0;
+		}
+	}
+	cout << "查無此人";
+	return 0;
+}
