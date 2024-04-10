@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多載函數", "多載函數\多載函數.vcxproj", "{8923C8A3-7AA3-4DB9-A28A-22FF98413851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Debug|x64.ActiveCfg = Debug|x64
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Debug|x64.Build.0 = Debug|x64
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Debug|x86.ActiveCfg = Debug|Win32
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Debug|x86.Build.0 = Debug|Win32
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Release|x64.ActiveCfg = Release|x64
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Release|x64.Build.0 = Release|x64
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Release|x86.ActiveCfg = Release|Win32
+		{8923C8A3-7AA3-4DB9-A28A-22FF98413851}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {089FDFA3-EFF0-4359-BA47-8FDA49BAA6CF}
+	EndGlobalSection
+EndGlobal

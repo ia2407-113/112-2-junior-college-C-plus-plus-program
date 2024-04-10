@@ -1,0 +1,5 @@
+﻿  多載函數.cpp
+C:\Users\User\source\repos\多載函數\多載函數\多載函數.cpp(45,32): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\source\repos\多載函數\多載函數\多載函數.cpp(52,28): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\source\repos\多載函數\多載函數\多載函數.cpp(59,19): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  多載函數.vcxproj -> C:\Users\User\source\repos\多載函數\Debug\多載函數.exe
