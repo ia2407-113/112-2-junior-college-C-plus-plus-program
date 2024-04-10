@@ -1,0 +1,4 @@
+﻿  ConsoleApplication5.cpp
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(24,22): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(30,30): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  ConsoleApplication5.vcxproj -> C:\Users\User\source\repos\ConsoleApplication5\Debug\ConsoleApplication5.exe
