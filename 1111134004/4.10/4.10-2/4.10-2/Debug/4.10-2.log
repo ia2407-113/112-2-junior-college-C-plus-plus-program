@@ -1,0 +1,4 @@
+﻿  4.10-2.cpp
+C:\Users\User\source\repos\4.10-2\4.10-2\4.10-2.cpp(48,36): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\source\repos\4.10-2\4.10-2\4.10-2.cpp(52,33): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  4.10-2.vcxproj -> C:\Users\User\source\repos\4.10-2\Debug\4.10-2.exe
