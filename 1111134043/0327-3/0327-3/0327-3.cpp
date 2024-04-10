@@ -2,28 +2,32 @@
 //
 
 #include <iostream>
-#include <string>
+#include<string>
 using namespace std;
-
 int main()
 {
-    string name[5], phonenum[5], search;
-    int x = 0, i;
-    name[0] = "Emma", name[1] = "Ann", name[2] = "6", name[3] = "37", name[4] = "210";
-    phonenum[0] = "121212", phonenum[1] = "343434", phonenum[2] = "565656", phonenum[3] = "787878", phonenum[4] = "909090";
-    while (x == 0)
-    {
-        cout << "請輸入朋友的名字:";
-        cin >> search;
-        for (int a = 0; a <= 4; a++)
-        {
-            if ((name[a].find(search, 0)) != -1)
-            {
-                cout << name[a] << "的電話號碼為" << phonenum[a] << "\n";
-            }
-        }
-    }
+	string name[5], phone[5];
+	string find_name;
+	cout << "輸入五位同學的電話及姓名\n";
+	for (int i = 0; i < 5; i++) {  //存入資料
+		cout << "姓名:";
+		getline(cin, name[i]); //讀取同學姓名並存入陣列中
+		cout << "電話:";
+		getline(cin, phone[i]);  //讀取同學電話號碼並存入陣列中
+	}
+
+	cout << "\n" << "輸入要尋找的同學姓名\n";
+	getline(cin, find_name);
+
+	for (int i = 0; i < 5; i++)    //要尋找的同學的電話號碼
+		if (find_name == name[i]) {
+			cout << "尋找的同學電話號碼為:" << phone[i];
+			return 0;
+		}
+	cout << "錯誤姓名";    //未找到
+	return 0;
 }
+
 
 
 

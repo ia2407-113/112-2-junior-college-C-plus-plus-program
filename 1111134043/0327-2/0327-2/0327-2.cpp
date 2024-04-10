@@ -31,7 +31,7 @@ int main() {
         cout << "第二位為女性\n";
     }
 
-    str3 = str1.substr(3, 4);
+    str3 = str1.substr(3, 4); //(3.4)第3項由後數第4項 並取出
     str4 = str2.substr(3, 4);
 
     if (str3 < str4) {

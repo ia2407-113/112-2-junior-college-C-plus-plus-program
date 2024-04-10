@@ -2,33 +2,31 @@
 //
 
 #include <iostream>
-#include <string>
-#include <cctype> // For std::toupper
+#include<string>
 using namespace std;
 
-int main() {
-    string str1;
-    int i = 0;
-    cout << "請輸入一句英文：";
-    getline(cin, str1);
-
-    do
+int main()
+{
+    string sentence, sentece_bakup;
+    int back_char = 1;
+    int i, len;
+    cout << "輸入一句英文";
+    getline(cin, sentence);
+    sentece_bakup = sentence;
+    len = sentence.length();
+    for (i = 0; i < len; i++)  
     {
-        if (isalnum(str1[i]))
+        if (back_char == 1)
         {
-            if (i == 0 || str1[i - 1] == ' ') //當字串是第一個字或是空格後的第一個字時不用變化
-            {
-            }
-            else
-            {
-                str1[i] = toupper(str1[i]);
-            }
+            sentence[i + 1] = toupper(sentence[i + 1]);  
+            back_char = 0;  
         }
-
-        i++;
-    } while (i < str1.length());
-
-    cout << str1;
+        if (sentence[i + 1] != ' ')  
+        {
+            back_char = 1;
+        }
+    }
+    cout << sentece_bakup << "轉成" << sentence;
 
     return 0;
 }
