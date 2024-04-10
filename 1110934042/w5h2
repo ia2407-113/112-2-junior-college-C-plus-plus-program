@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string str1, str2;
+    cout << "輸入第一個身分證字號:";
+    getline(cin, str1);
+    cout << "輸入第二個身分證字號:";
+    getline(cin, str2);
+    if (str1[1] == '1')
+        cout << "第一位是男性\n";
+    else if (str1[1] == '2')
+        cout << "第一位是女性\n";
+    if (str2[1] == '1')
+        cout << "第二位是男性\n";
+    else if (str2[1] == '2')
+        cout << "第二位是女性\n";
+    for (size_t i = 2; i <= 10; i++)
+    {
+        if (str1[i] > str2[i])
+        {
+            cout << "第一位可能比較小";
+            break;
+        }
+        else if (str1[i] == str2[i])
+        {
+
+        }
+        else if (str1[i] < str2[i])
+        {
+            cout << "第一位可能比較大";
+            break;
+        }
+    }
+}
