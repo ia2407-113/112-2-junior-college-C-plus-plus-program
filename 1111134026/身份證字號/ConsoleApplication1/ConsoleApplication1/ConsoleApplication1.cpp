@@ -2,15 +2,21 @@
 //
 #include <iostream>
 #include <string>
+#include <numbers>
+#include <cctype>
 using namespace std;
 int main()
 {
-    string str1, str2, id1, id2;
+    string str1, str2,id1,id2;
      int search_result;
+     int r = 2;//取第幾個字
+     int a = 7;//取多少字
     cout << "請輸入第一個身份證字號:";//身分證第2碼代表性別碼：1 為男性，2為女性
     getline(cin, str1);
     cout << "請輸入第二個身份證字號:";
     getline(cin, str2);
+    id1 = str1.substr(r, a);//substr是取
+    id2 = str2.substr(r, a);
     search_result = str1.find("1");//第一身分證判斷  str2.find("1") 例如:B123456789  B代表0 
                                    //1代表2   3代表4  ID的男女判斷 男生第一個數字1 女生第一個數字2
     if (search_result == 1)
@@ -28,13 +34,10 @@ int main()
     {
         cout << "第二位ID是女生\n";
     }
-    if (str1 > str2) //預估年紀 不確定寫對不對
-        cout << str1 << " 大於 " << str2;
-    else if (str1 == str2)
-        cout << str1 << " 等於 " << str2;
+    if (id1 < id2)
+        cout << str1 << "比較大\n";
     else
-        cout << str1 << " 小於 " << str2;
-
+        cout << str2 << "比較大\n";
     return 0;
 }
 
