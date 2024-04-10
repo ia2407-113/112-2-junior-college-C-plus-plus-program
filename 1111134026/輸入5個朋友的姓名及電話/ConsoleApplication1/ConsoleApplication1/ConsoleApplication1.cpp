@@ -17,7 +17,7 @@ int main()
         getline(cin, phone[i]);                  //輸入
     }
     cout << "請輸入名字";
-    getline(cin, searname);
+     getline(cin, searname);
     for (int i = 0; i < 5; i++) {
         if ( searname == name[i])
             {
