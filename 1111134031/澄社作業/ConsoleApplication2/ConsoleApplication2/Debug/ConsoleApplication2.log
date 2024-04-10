@@ -1,0 +1,5 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\Administrator\Desktop\程設\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(10,9): warning C4101: 'search_result': 未參考的區域變數
+C:\Users\Administrator\Desktop\程設\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(9,28): warning C4101: 'id1': 未參考的區域變數
+C:\Users\Administrator\Desktop\程設\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(9,33): warning C4101: 'id2': 未參考的區域變數
+  ConsoleApplication2.vcxproj -> C:\Users\Administrator\Desktop\程設\ConsoleApplication2\Debug\ConsoleApplication2.exe
