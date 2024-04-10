@@ -1,0 +1,4 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\User\Desktop\第六周作業\第一題\ConsoleApplication2\ConsoleApplication2.cpp(11,26): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\第六周作業\第一題\ConsoleApplication2\ConsoleApplication2.cpp(15,26): warning C4018: '<': signed/unsigned 不相符
+  ConsoleApplication2.vcxproj -> C:\Users\User\Desktop\第六周作業\第一題\Debug\ConsoleApplication2.exe
