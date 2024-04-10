@@ -19,15 +19,14 @@ int main()
     cout << "請輸入名字";
     getline(cin, searname);
     for (int i = 0; i < 5; i++) {
-        if (name[i] == searname) 
+        if ( searname == name[i])
             {
             cout << searname << "的電話是:" << phone[i];
+            return 0;
             }
-        return 0;
     }
-
-    cout << "查無此人";
-    return 0;
+        cout << "查無此人";
+        return 0;
 }
    
 
