@@ -1,0 +1,4 @@
+﻿  ConsoleApplication9.cpp
+C:\Users\User\source\repos\ConsoleApplication9\ConsoleApplication9\ConsoleApplication9.cpp(14,29): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\User\source\repos\ConsoleApplication9\ConsoleApplication9\ConsoleApplication9.cpp(21,29): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  ConsoleApplication9.vcxproj -> C:\Users\User\source\repos\ConsoleApplication9\Debug\ConsoleApplication9.exe
