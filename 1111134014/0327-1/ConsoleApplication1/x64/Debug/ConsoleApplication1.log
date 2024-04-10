@@ -1,3 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\Luna\Desktop\0327-1\ConsoleApplication1\ConsoleApplication1.cpp(15,26): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
-  ConsoleApplication1.vcxproj -> C:\Users\Luna\Desktop\0327-1\x64\Debug\ConsoleApplication1.exe
