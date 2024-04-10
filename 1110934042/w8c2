@@ -5,15 +5,15 @@ void volume(int side, double &ans) {
     ans = side*side*side;
 }
 
-void volume(double r, double& ans) {
+void volume(double r, double &ans) {
     ans = (4.0/3.0)*3.14*r*r*r;
 }
 
-void volume(double r, double h,double& ans) {
+void volume(double r, double h,double &ans) {
     ans = 3.14 * r * r * h;
 }
 
-void volume(double l, double w, double h, double& ans) {
+void volume(double l, double w, double h, double &ans) {
     ans = l*w*h;
 }
 
