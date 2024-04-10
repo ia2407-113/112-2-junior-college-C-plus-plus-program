@@ -1,0 +1,10 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(13,18): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(41,20): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(49,27): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(50,27): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(59,22): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(60,21): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(61,22): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20240410\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(29,30): warning C4101: 'h': 未參考的區域變數
+  ConsoleApplication2.vcxproj -> C:\Users\User\Desktop\20240410\ConsoleApplication2\Debug\ConsoleApplication2.exe
