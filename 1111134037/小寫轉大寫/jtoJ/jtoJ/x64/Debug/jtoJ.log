@@ -1,0 +1,3 @@
+﻿  jtoJ.cpp
+C:\Users\kelle\source\repos\jtoJ\jtoJ\jtoJ.cpp(57,5): warning C4102: 'std': 未參考的標籤
+  jtoJ.vcxproj -> C:\Users\kelle\source\repos\jtoJ\x64\Debug\jtoJ.exe
