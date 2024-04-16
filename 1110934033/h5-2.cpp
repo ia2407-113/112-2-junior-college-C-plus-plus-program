@@ -7,8 +7,8 @@ int main() {
     cout << "請輸入兩個身分證字號: ";
     cin >> id1 >> id2;
 
-    char gender1 = id1[id1.length() - 9];
-    char gender2 = id2[id2.length() - 9];
+    char gender1 = id1[1];
+    char gender2 = id2[1];
 
     if (gender1 == '1') {
         cout << "第一位的身份證字號是男性" << endl;
