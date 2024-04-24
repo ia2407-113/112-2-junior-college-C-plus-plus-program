@@ -1,0 +1,3 @@
+﻿  2024 0424_022-1.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\sal.h(2361,1): error C2144: 語法錯誤: 'int' 必須在 ';' 之後
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\sal.h(2361,8): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
