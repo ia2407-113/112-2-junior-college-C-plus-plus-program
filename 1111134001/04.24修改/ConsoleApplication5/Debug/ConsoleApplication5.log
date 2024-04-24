@@ -1,0 +1,5 @@
+﻿  ConsoleApplication5.cpp
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(40,52): error C2679: 二元運算子 '=': 找不到使用右方運算元類型 'int' 的運算子 (或是沒有可接受的轉換)
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(17,5): message : 可能是 'main::student &main::student::operator =(main::student &&)'
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(17,5): message : 或       'main::student &main::student::operator =(const main::student &)'
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(40,52): message : 當嘗試符合引數清單 '(main::student, int)' 時
