@@ -1,0 +1,3 @@
+修改以上程式碼，
+1. 新增setCourseID與setCourseTeacher兩個成員函數，以及私有變數courseID與teacher，使其能透過setCourseID與setCourseTeacher兩個成員函數分別修改私有變數courseID與teacher的內容。
+2. 新增getCourseID與getCourseTeacher兩個成員函數，於主程式main中取得courseID與teacher的值，並印在螢幕中。
