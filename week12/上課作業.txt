@@ -1,1 +1,39 @@
+#include <iostream>
 
+// Fig. 3.1: fig03_01.cpp
+// Define class GradeBook with a member function displayMessage;
+// Create a GradeBook object and call its displayMessage function.
+using namespace std;
+
+// GradeBook class definition
+class GradeBook
+{
+public:
+    // function that displays a welcome message to the GradeBook user
+    void displayMessage() const
+    {
+        cout << "Welcome to the Grade Book!" << endl;
+        cout << "Course Name is: " << course_name << endl;
+    } // end function displayMessage
+
+    void setCourse(string name)
+    {
+        if (name != "")
+            course_name = name;
+    }
+private:
+    string course_name="Computer Networks";
+}; // end class GradeBook  
+
+// function main begins program execution
+int main()
+{
+    GradeBook myGradeBook; // create a GradeBook object named myGradeBook
+    myGradeBook.displayMessage(); // call object's displayMessage function 
+    myGradeBook.setCourse("C++ programming");
+    //myGradeBook.course_name = "I don't know!";
+    myGradeBook.displayMessage();
+} // end main
+
+
+修改以上程式碼，加入建構子與解構子，建構子提供初始化的課程名稱，解構子則負責印出結束的訊息。
