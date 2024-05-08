@@ -2,28 +2,41 @@
 //
 
 #include <iostream>
-#include <string>
+
+// Fig. 3.1: fig03_01.cpp
+// Define class GradeBook with a member function displayMessage;
+// Create a GradeBook object and call its displayMessage function.
 using namespace std;
 
+// GradeBook class definition
+class GradeBook
+{
+public:
+    // function that displays a welcome message to the GradeBook user
+    void displayMessage() const
+    {
+        cout << "Welcome to the Grade Book!" << endl;
+        cout << "Course Name is: " << course_name << endl;
+    } // end function displayMessage
+
+    void setCourse(string name)
+    {
+        if (name != "")
+            course_name = name;
+    }
+private:
+    string course_name = "Computer Networks";
+}; // end class GradeBook  
+
+// function main begins program execution
 int main()
 {
-    string str1;
-    getline(cin, str1);//輸入一句話英文
-    int a;
-    a = str1.length();//不太確定 課7-39
-    for (int i = 0; i < a; i++)
-    {
-        str1[i] = toupper(str1[i]);//All小寫改大寫
-    }
-    str1[0] = tolower(str1[0]);
-    for (int i = 0; i < a; i++)
-    {
-        if (str1[i] == ' ') //找空白
-            str1[i + 1] = tolower(str1[i + 1]);//字首大寫改小寫
-    }
-    cout << str1;
-}
-
+    GradeBook myGradeBook; // create a GradeBook object named myGradeBook
+    myGradeBook.displayMessage(); // call object's displayMessage function 
+    myGradeBook.setCourse("C++ programming");
+    //myGradeBook.course_name = "I don't know!";
+    myGradeBook.displayMessage();
+} // end main
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
 

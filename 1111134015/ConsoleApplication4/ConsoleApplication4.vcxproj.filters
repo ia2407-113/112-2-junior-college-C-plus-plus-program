@@ -18,5 +18,16 @@
     <ClCompile Include="ConsoleApplication4.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="0508.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeBook.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GradeBook.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
