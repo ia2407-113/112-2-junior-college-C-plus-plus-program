@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{81dbe713-5db5-456c-8b21-dc52b04d0ecc}</ProjectGuid>
+    <ProjectGuid>{e02a15a2-79d1-4a57-a0ec-3c48ac484cf3}</ProjectGuid>
     <RootNamespace>ConsoleApplication6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication6.cpp" />
+    <ClCompile Include="GradeBook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GradeBook.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
