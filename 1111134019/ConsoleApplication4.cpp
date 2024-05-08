@@ -2,75 +2,30 @@
 //
 
 #include <iostream>
-#include <string>
-
+#include"GradeBook.h"
 using namespace std;
 
-class GradeBook
+GradeBook::GradeBook(string inital_course)
 {
-public:
-    void displayMessage() const
-    {
-        cout << "歡迎使用成績登錄系統！" << endl;
-        cout << "課程名稱：" << course_name << endl;
-        cout << "課程編號：" << courseID << endl;
-        cout << "授課教師：" << teacher << endl;
-    }
-
-    void setCourse(string name)
-    {
-        if (!name.empty())
-            course_name = name;
-    }
-
-    void setCourseID(string id)
-    {
-        if (!id.empty())
-            courseID = id;
-    }
-
-    void setCourseTeacher(string t)
-    {
-        if (!t.empty())
-            teacher = t;
-    }
-
-    // 新增的函數用於取得課程編號
-    string getCourseID() const
-    {
-        return courseID;
-    }
-
-    // 新增的函數用於取得授課教師
-    string getCourseTeacher() const
-    {
-        return teacher;
-    }
-
-private:
-    string course_name = "計算機網絡";
-    string courseID = "34019";
-    string teacher = "G";
-};
-
-int main()
-{
-    GradeBook myGradeBook;
-    myGradeBook.displayMessage();
-
-    myGradeBook.setCourse("C++ 程式設計");
-    myGradeBook.setCourseID("340190");
-    myGradeBook.setCourseTeacher("G");
-
-    myGradeBook.displayMessage();
-
-    // 在主程式中取得並印出課程編號與授課教師的值
-    cout << "課程編號：" << myGradeBook.getCourseID() << endl;
-    cout << "授課教師：" << myGradeBook.getCourseTeacher() << endl;
-
-    return 0;
+    course_name = inital_course;
 }
 
+GradeBook::~GradeBook()
+{
+  count << "owarida"
+}
+  
+    void GradeBook::displayMessage() const
+    {
+        cout << "Welcome to the Grade Book!" << endl;
+        cout << "Course Name is: " << course_name << endl;
+    } // end function displayMessage
+
+    void  GradeBook::setCourse(string name)
+    {
+        if (name != "")
+            course_name = name;
+    }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
 // 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
