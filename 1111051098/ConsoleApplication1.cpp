@@ -1,49 +1,27 @@
 ﻿#include <iostream>
-
-// Fig. 3.1: fig03_01.cpp
-// Define class GradeBook with a member function displayMessage;
-// Create a GradeBook object and call its displayMessage function.
+#include "Header.h"
 using namespace std;
-
-// GradeBook class definition
-class GradeBook
+GradeBook::GradeBook(string initial_name)
 {
-public:
-    string Cname, Tname;
-    void setCourseID()
-    {
-        cout << "請輸入課程名稱";
-        cin >> Cname;
-        courseID = Cname;
-    }
-    void setCourseTeacher()
-    {
-        cout << "請輸入老師名稱";
-        cin >> Tname;
-        teacher = Tname;
-    }
-    string getCourse()
-    {
-        return courseID;
-    }
-    string getCourseTeacher()
-    {
-        return teacher;
-    }
-private:
-    string courseID;
-    string teacher;
-}; 
-int main()
+	course_name = initial_name;
+}
+
+GradeBook::~GradeBook()
 {
-    string cou,tea; 
-    GradeBook myGradeBook; 
-    myGradeBook.setCourseID();
-    myGradeBook.setCourseTeacher();
+	cout << "Bye Bye my Course!" << endl;
+}
 
-    cou = myGradeBook.getCourse();
-    tea = myGradeBook.getCourseTeacher();
-
-    cout << "課程名稱" << cou << endl;
-    cout << "老師姓名是" << tea << endl;
-} 
+void GradeBook::displayMessage()const
+{
+	cout << "Welcome to the Grade Book" << endl;
+	cout << "Course Nmae is:" << course_name << endl;
+}
+void GradeBook::setcourse(string name)
+{
+	if (name != "")
+		course_name = name;
+}
+string GradeBook::getcourse()
+{
+	return course_name;
+}
