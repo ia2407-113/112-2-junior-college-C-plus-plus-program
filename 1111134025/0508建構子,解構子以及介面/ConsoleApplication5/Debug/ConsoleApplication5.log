@@ -1,0 +1,3 @@
+﻿  ConsoleApplication5.cpp
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(12,35): error C2660: 'GradeBook::getCourse': 函式不使用 1 引數
+C:\Users\User\source\repos\ConsoleApplication5\ConsoleApplication5\GradeBook.h(19,12): message : 請參閱 'GradeBook::getCourse' 的宣告
