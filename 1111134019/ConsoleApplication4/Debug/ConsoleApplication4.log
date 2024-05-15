@@ -1,0 +1,6 @@
+﻿  ConsoleApplication4.cpp
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(27,5): error C3861: 'printROC': 找不到識別項
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(37,1): error C2084: 函式 'void Date::print(void) const' 的主體已經被宣告了
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(32): message : 請參閱 'print' 之前的定義
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(39,1): error C2143: 語法錯誤: 遺漏 ';' (在 '}' 之前)
+C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(44,5): error C2065: 'print': 未宣告的識別項
