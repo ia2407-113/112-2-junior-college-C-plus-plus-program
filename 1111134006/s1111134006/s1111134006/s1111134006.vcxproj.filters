@@ -18,5 +18,25 @@
     <ClCompile Include="s1111134006.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="pet.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Time.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="pet.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
