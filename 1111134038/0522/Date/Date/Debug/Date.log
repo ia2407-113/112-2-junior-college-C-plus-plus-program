@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\User\Desktop\0522\Date\Date\main.cpp(14,52): error C2661: 'pet::pet': 多載函式不使用 4 引數
+C:\Users\User\Desktop\0522\Date\Date\main.cpp(15,54): error C2661: 'pet::pet': 多載函式不使用 4 引數
+  pet.cpp
+C:\Users\User\Desktop\0522\Date\Date\pet.cpp(9,5): error C2511: 'pet::pet(const std::string &,const std::string &,const Date &,const Date &)': 在 'pet' 找不到多載成員函式
+C:\Users\User\Desktop\0522\Date\Date\pet.h(7): message : 請參閱 'pet' 的宣告
+C:\Users\User\Desktop\0522\Date\Date\pet.cpp(13,1): error C2550: 'pet::{ctor}': 建構函式初始設定式清單只允許在建構函式定義上
+  正在產生程式碼...
