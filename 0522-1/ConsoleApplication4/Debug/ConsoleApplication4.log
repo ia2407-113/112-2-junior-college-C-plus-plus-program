@@ -1,5 +1,0 @@
-﻿  ConsoleApplication4.cpp
-  test.cpp
-C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4\test.cpp(14,16): warning C4101: 'j': 未參考的區域變數
-  正在產生程式碼...
-  ConsoleApplication4.vcxproj -> C:\Users\User\source\repos\ConsoleApplication4\Debug\ConsoleApplication4.exe
