@@ -1,0 +1,5 @@
+﻿  0522_2.cpp
+  matrix.cpp
+C:\Users\User\Desktop\0522_2\0522_2\matrix.cpp(12,12): warning C4101: 'j': 未參考的區域變數
+  正在產生程式碼...
+  0522_2.vcxproj -> C:\Users\User\Desktop\0522_2\Debug\0522_2.exe
