@@ -1,0 +1,4 @@
+﻿  matrix.cpp
+C:\Users\User\Desktop\運算子多載\ConsoleApplication1\ConsoleApplication1\matrix.cpp(12,16): warning C4101: 'j': 未參考的區域變數
+C:\Users\User\Desktop\運算子多載\ConsoleApplication1\ConsoleApplication1\matrix.cpp(24,46): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  ConsoleApplication1.vcxproj -> C:\Users\User\Desktop\運算子多載\ConsoleApplication1\Debug\ConsoleApplication1.exe
