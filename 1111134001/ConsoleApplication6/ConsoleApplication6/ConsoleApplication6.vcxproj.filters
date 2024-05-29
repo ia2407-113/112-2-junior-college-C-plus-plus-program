@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication6.cpp">
+    <ClCompile Include="Matrix.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="GradeBook.cpp">
-      <Filter>標頭檔</Filter>
+    <ClCompile Include="test.cpp">
+      <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GradeBook.h">
-      <Filter>資源檔</Filter>
+    <ClInclude Include="Matrix.h">
+      <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
