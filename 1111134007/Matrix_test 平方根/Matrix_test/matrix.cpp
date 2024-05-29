@@ -16,12 +16,12 @@ using namespace std ;
 	        
     
     // 定义矩阵的「^」(平方根)后置运算符的重载
-Matrix Matrix::operator^(int) {
+Matrix Matrix::operator-() {
     Matrix temp(row, column); // 备份后置^运算符执行前的对象内容
+    int i, j, y;
     for (int i = 0; i < row; i++) {
-        for (int j = 0; j < column; j++) {
-            temp.element[i][j] = this->element[i][j];
-            this->element[i][j] = sqrt(this->element[i][j]);
+             for (int j = 0; j < column; j++) {
+             temp.element[i][j] = y = sqrt(this->element[i][j]);
         }
     }
     return temp; // 返回后置^运算符执行前的对象内容

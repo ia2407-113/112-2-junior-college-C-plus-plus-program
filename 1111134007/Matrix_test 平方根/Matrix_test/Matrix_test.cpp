@@ -20,7 +20,7 @@ int main() {
     }
 
     cout << "執行「b = a^0 ;」的順序，是先執行「b = a ;」，然後執行「a = sqrt(a) ;」\n";
-    b = a ^ 0;  // 先執行b = a ;，然後再執行 a = sqrt(a) ;  
+    b = -a;  // 先執行b = a ;，然後再執行 a = sqrt(a) ;  
 
     cout << "矩陣b的內容為:\n";
     for (i = 0; i < row; i++) {
