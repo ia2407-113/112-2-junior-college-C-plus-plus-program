@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{67143f3f-760b-48a5-8a49-9990602402b9}</ProjectGuid>
+    <ProjectGuid>{666ffca8-351f-44d1-a79f-81b1b489835b}</ProjectGuid>
     <RootNamespace>ConsoleApplication4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,12 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0508.cpp" />
+    <ClCompile Include="air.cpp" />
     <ClCompile Include="ConsoleApplication4.cpp" />
-    <ClCompile Include="GradeBook.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GradeBook.h" />
+    <ClInclude Include="air.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
