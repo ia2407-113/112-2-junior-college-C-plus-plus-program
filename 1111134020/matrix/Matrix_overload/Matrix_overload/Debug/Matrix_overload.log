@@ -1,0 +1,5 @@
+﻿  matrix.cpp
+E:\c++\matrix\Matrix_overload\Matrix_overload\matrix.cpp(13,16): warning C4101: 'j': 未參考的區域變數
+  Matrix_overload.cpp
+  正在產生程式碼...
+  Matrix_overload.vcxproj -> E:\c++\matrix\Matrix_overload\Debug\Matrix_overload.exe
