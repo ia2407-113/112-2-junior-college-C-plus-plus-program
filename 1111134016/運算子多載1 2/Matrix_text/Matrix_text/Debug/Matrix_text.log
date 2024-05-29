@@ -1,0 +1,3 @@
+﻿  matrix.cpp
+C:\Users\User\Desktop\運算子多載\Matrix_text\Matrix_text\matrix.cpp(13,16): warning C4101: 'j': 未參考的區域變數
+  Matrix_text.vcxproj -> C:\Users\User\Desktop\運算子多載\Matrix_text\Debug\Matrix_text.exe
