@@ -1,27 +1,18 @@
 ﻿#include <iostream>
-#include "Header.h"
+#include <string>
+#include"air.h"
 using namespace std;
-GradeBook::GradeBook(string initial_name)
+// 飛行物體類別 
+int main()
 {
-	course_name = initial_name;
-}
+    flight_object* flight,flightl;
+    airliner airl;
 
-GradeBook::~GradeBook()
-{
-	cout << "Bye Bye my Course!" << endl;
-}
+    flight = &flightl;
+    flight->display();
 
-void GradeBook::displayMessage()const
-{
-	cout << "Welcome to the Grade Book" << endl;
-	cout << "Course Nmae is:" << course_name << endl;
-}
-void GradeBook::setcourse(string name)
-{
-	if (name != "")
-		course_name = name;
-}
-string GradeBook::getcourse()
-{
-	return course_name;
+    flight = &airl;
+    flight->display();
+
+    return 0;
 }
