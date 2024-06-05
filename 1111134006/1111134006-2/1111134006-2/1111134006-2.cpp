@@ -2,32 +2,10 @@
 //
 
 #include <iostream>
-#include <string>
-#include <cctype>
 
-using namespace std;
-
-int main() {
-
-    string str1, str2;
-    cout << "輸入一串英文:";
-    getline(cin, str1);
-
-    for (int i = 0; i < str1.length(); i++)
-    {
-        if (i == 0 || str2[i - 1] == ' ')
-        {
-            str2 += tolower(str1[i]);
-        }
-        else
-        {
-            str2 += toupper(str1[i]);
-        }
-    }
-
-    cout << str2;
-
-    return 0;
+int main()
+{
+    std::cout << "Hello World!\n";
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
