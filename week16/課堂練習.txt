@@ -1,0 +1,1 @@
+題目: 根據範例7的程式碼，分離成實作檔、介面檔、主程式，並且在飛行器(flight_object)類別中新增"後燃器"(afterburner)的純虛擬函數，並且在戰鬥機(battleplane)類別的函數create_flight_object()新增輸入後燃器秒數，最後在後燃器"(afterburner)虛擬函數輸出秒數。
