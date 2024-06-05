@@ -1,21 +1,23 @@
 ﻿#include <iostream>
-#include <cctype> // 包含這個標頭文件以使用 toupper 函數
-
+#include <string>
 using namespace std;
+#include "Header.h"
 
-int main() {
-    string sentence;
-    cout << "請輸入一句英文: ";
-    cin >> sentence;
+int main()
+{
+	flight_object* flight;
+	airliner air1;
+	battleplane battle1;
 
-    // 將第一個字母改成大寫
-    for (size_t i = 0; i < sentence.length(); ++i) {
-        if (i == 0 || isspace(sentence[i - 1])) {
-            sentence[i] = toupper(sentence[i]);//toupper是為了把字母轉成大寫
-        }
-    }
+	flight = &air1;  // flight指向air1的位址 
+	flight->create_flight_object();
+	air1.create_airliner();
+	flight->display();
 
-    // 輸出結果
-    cout << "處理後的句子: " << sentence << endl;
+	flight = &battle1;  // flight指向battle1的位址 
+	flight->create_flight_object();
+	battle1.create_battleplane();
+	flight->display();
 
-    return 0;
+	return 0;
+}

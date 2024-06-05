@@ -18,5 +18,13 @@
     <ClCompile Include="ConsoleApplication5.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
