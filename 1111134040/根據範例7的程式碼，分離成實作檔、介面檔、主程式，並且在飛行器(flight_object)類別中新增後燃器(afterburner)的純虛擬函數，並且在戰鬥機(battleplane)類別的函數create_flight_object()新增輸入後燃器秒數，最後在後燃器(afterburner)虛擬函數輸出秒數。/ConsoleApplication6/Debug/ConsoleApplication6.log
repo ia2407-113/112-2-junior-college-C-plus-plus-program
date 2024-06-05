@@ -1,0 +1,19 @@
+﻿  ConsoleApplication6.cpp
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(13,14): error C2259: 'airliner': 無法將抽象類別具現化
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Header.h(26): message : 請參閱 'airliner' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(13,14): message : 由於下列成員:
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(13,14): message : 'int flight_object::afterburner(void)': 為抽象
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Header.h(22): message : 請參閱 'flight_object::afterburner' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(14,17): error C2259: 'battleplane': 無法將抽象類別具現化
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Header.h(52): message : 請參閱 'battleplane' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(14,17): message : 由於下列成員:
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(14,17): message : 'int flight_object::afterburner(void)': 為抽象
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Header.h(22): message : 請參閱 'flight_object::afterburner' 的宣告
+  Source.cpp
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Source.cpp(7,1): error C2011: 'flight_object': 'class' 類型重複定義
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Header.h(5): message : 請參閱 'flight_object' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Source.cpp(27,16): error C2011: 'airliner': 'class' 類型重複定義
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Header.h(26): message : 請參閱 'airliner' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Source.cpp(77,19): error C2011: 'battleplane': 'class' 類型重複定義
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\Header.h(52): message : 請參閱 'battleplane' 的宣告
+  正在產生程式碼...
