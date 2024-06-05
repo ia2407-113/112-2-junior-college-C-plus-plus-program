@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c8d18e1c-542f-4fb9-a880-faa0d2d05955}</ProjectGuid>
+    <ProjectGuid>{1b314f61-606e-465f-b748-b6fe27e5df67}</ProjectGuid>
     <RootNamespace>ConsoleApplication5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication5.cpp" />
+    <ClCompile Include="air.cpp" />
+    <ClCompile Include="plane.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="air.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
