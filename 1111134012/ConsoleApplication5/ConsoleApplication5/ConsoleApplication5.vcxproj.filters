@@ -19,7 +19,7 @@
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="Source.cpp">
-      <Filter>來源檔案</Filter>
+      <Filter>資源檔</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

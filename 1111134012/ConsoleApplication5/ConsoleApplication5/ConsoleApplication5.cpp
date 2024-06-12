@@ -1,23 +1,25 @@
-﻿#include <iostream>
-#include <string>
+﻿#include "Header.h"
+#include <iostream>
 using namespace std;
-#include "Header.h"
 
-int main()
-{
-	flight_object* flight;
-	airliner air1;
-	battleplane battle1;
+int main() {
+    double radius, height;
 
-	flight = &air1;  // flight指向air1的位址 
-	flight->create_flight_object();
-	air1.create_airliner();
-	flight->display();
+    std::cout << "輸入半徑: ";
+    std::cin >> radius;
 
-	flight = &battle1;  // flight指向battle1的位址 
-	flight->create_flight_object();
-	battle1.create_battleplane();
-	flight->display();
+    std::cout << "輸入高: ";
+    std::cin >> height;
 
-	return 0;
+    pie_2D pie(radius);
+    cylinder_3D cylinder(radius, height);
+    cron_3D cone(radius, height);
+
+    std::cout << "圓餅面積 " << pie.getArea() << std::endl;
+    std::cout << "圓錐體體積 " << cone.getVolume() << std::endl;
+    std::cout << "圓柱體體積 " << cylinder.getVolume() << std::endl;
+    std::cout << "圓柱體表面積 " << cylinder.getSurfaceArea() << std::endl;
+    
+
+    return 0;
 }
