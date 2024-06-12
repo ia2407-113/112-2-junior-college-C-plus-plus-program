@@ -1,0 +1,10 @@
+﻿  6.12-2.cpp
+C:\Users\User\source\repos\6.12-2\6.12-2\shape.h(18,28): warning C4584: 'cylinder_3D': 基底類別 'circ_1D' 原本就是 'pie_2D' 的基底類別; 使用這些類別的成員時需嚴格限定，以免導致模稜兩可
+C:\Users\User\source\repos\6.12-2\6.12-2\shape.h(4): message : 請參閱 'circ_1D' 的宣告
+C:\Users\User\source\repos\6.12-2\6.12-2\shape.h(12): message : 請參閱 'pie_2D' 的宣告
+  shape.cpp
+C:\Users\User\source\repos\6.12-2\6.12-2\shape.h(18,28): warning C4584: 'cylinder_3D': 基底類別 'circ_1D' 原本就是 'pie_2D' 的基底類別; 使用這些類別的成員時需嚴格限定，以免導致模稜兩可
+C:\Users\User\source\repos\6.12-2\6.12-2\shape.h(4): message : 請參閱 'circ_1D' 的宣告
+C:\Users\User\source\repos\6.12-2\6.12-2\shape.h(12): message : 請參閱 'pie_2D' 的宣告
+  正在產生程式碼...
+  6.12-2.vcxproj -> C:\Users\User\source\repos\6.12-2\Debug\6.12-2.exe
