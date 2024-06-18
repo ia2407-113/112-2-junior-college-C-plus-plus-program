@@ -1,0 +1,6 @@
+﻿  6-12-3.cpp
+  math.cpp
+C:\Users\User\source\repos\6-12-3\6-12-3\math.cpp(13,16): warning C4101: 'j': 未參考的區域變數
+C:\Users\User\source\repos\6-12-3\6-12-3\math.cpp(24,42): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  正在產生程式碼...
+  6-12-3.vcxproj -> C:\Users\User\source\repos\6-12-3\Debug\6-12-3.exe
