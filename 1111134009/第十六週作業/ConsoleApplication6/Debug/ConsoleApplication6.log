@@ -1,0 +1,11 @@
+﻿  airr.cpp
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\airr.cpp(26,1): error C2556: 'int airliner::afterburner(void)': 多載函式和 'void airliner::afterburner(void)' 只在傳回類型不同
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\air.h(43): message : 請參閱 'airliner::afterburner' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\airr.cpp(25,15): error C2371: 'airliner::afterburner': 重複定義; 基本類型不相同
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\air.h(43): message : 請參閱 'airliner::afterburner' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\airr.cpp(66,1): error C2556: 'int battleplane::afterburner(void)': 多載函式和 'void battleplane::afterburner(void)' 只在傳回類型不同
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\air.h(63): message : 請參閱 'battleplane::afterburner' 的宣告
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\airr.cpp(65,18): error C2371: 'battleplane::afterburner': 重複定義; 基本類型不相同
+C:\Users\User\source\repos\ConsoleApplication6\ConsoleApplication6\air.h(63): message : 請參閱 'battleplane::afterburner' 的宣告
+  ConsoleApplication6.cpp
+  正在產生程式碼...
